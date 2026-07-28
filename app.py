@@ -15,7 +15,7 @@ if chave != "prodentis2026":
     st.stop()
 
 # Carregar o HTML do dashboard
-html_content = Path("dashboard.html").read_text(encoding="utf-8")
+html_content = Path("Dashboard_Cursos_2026.html").read_text(encoding="utf-8")
 
 # Renderizar o dashboard completo
 st.components.v1.html(html_content, height=3200, scrolling=True)
